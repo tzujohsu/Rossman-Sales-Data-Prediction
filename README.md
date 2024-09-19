@@ -36,9 +36,7 @@ The dataset provides historical sales data for 1,115 Rossmann stores, including 
 
 ## Approach
 
-[Note: You can update this section with your specific approach once you've completed your analysis and model building]
-
-Our approach to solving this challenge includes:
+My approach to solving this challenge includes:
 
 1. Exploratory Data Analysis (EDA) to understand the relationships between variables
 2. Feature engineering to create more informative predictors
