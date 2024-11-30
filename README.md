@@ -4,6 +4,7 @@
 
 This project aims to forecast daily sales for Rossmann drug stores across Germany using store, promotion and competitor data.
 
+[![](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=darkgreen)](https://www.python.org) [![](https://img.shields.io/badge/scikit_learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/stable/) [![](https://img.shields.io/badge/Numpy-777BB4?style=for-the-badge&logo=numpy&logoColor=white)](https://numpy.org) [![](https://img.shields.io/badge/Pandas-2C2D72?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%25dd32.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![XGBoost](https://img.shields.io/badge/XGBoost-%66D7D1.svg?style=for-the-badge) 
 
 ### Business Goal
 
@@ -45,7 +46,6 @@ My approach to solving this challenge includes:
 5. Hyperparameter tuning to optimize model performance
 6. Ensemble methods to combine predictions from multiple models
 
-
 My approach to solving this challenge includes:
 
 1. Exploratory Data Analysis (EDA): To understand the data distribution, correlation patterns, and potential insights.
@@ -54,9 +54,11 @@ My approach to solving this challenge includes:
 4. Feature Importance Analysis: To understand which factors most significantly influence order volumes.
 
 ## Package used
-- Data processing: pandas, numpy
+- Data processing/EDA: pandas, numpy, skimpy
 - Visualization: matplotlib, seaborn
-- EDA summarzation: skimpy
-- Modeling: sklearn
+- Modeling: sklearn, XGBoost
 
-
+## Analysis plots (excerpt)
+![figure-1](figures/rossmans-fig1.png)
+![figure-2](figures/rossmans-fig2.png)
+![figure-3](figures/rossmans-fig3.png)
